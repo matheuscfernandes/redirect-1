@@ -4,6 +4,9 @@
 
 <head>
   <script>
-    window.location.replace("https://www.quant.phd/");
+    var targetURL = "https://www.quant.phd/";
+    var path = window.location.pathname;
+    window.location.replace(targetURL + path);
   </script>
 </head>
+
