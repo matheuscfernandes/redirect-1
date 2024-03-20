@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^/(.*)$ https://www.quant.phd/$1 [R=301,L]
